@@ -1,5 +1,5 @@
-<img width="80%" align="center" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/portfolio_mockup.png" alt="portfolio template mockup" /> <br/>
-<img height="350px" align="right" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/mobile-demo.gif" alt="portfolio mobile demo gif"/>
+<img width="80%" align="center" src="https://github.com/touseef028/devops-portfolio/blob/images/images/portfolio_mockup.png" alt="portfolio template mockup" /> <br/>
+<img height="350px" align="right" src="https://github.com/touseef028/devops-portfolio/blob/images/images/mobile-demo.gif" alt="portfolio mobile demo gif"/>
 
 <img align="left" src="https://github.com/leungwensen/svg-icon/blob/master/dist/svg/logos/react.svg" height="50" alt="react icon"/>
 <h2>Portfolio Template</h2>
@@ -18,9 +18,9 @@ at GitHub. Check live preview(link below).
 
 <h3>:eye_speech_bubble: Live demo</h3>
 
-Check live demonstration <a href="https://dorota1997.github.io/react-frontend-dev-portfolio/"><strong>here</strong></a>
+Check live demonstration <a href="https://touseef028.github.io/devops-portfolio/"><strong>here</strong></a>
 
-<img width="100%" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
+<img width="100%" src="https://github.com/touseef028/devops-portfolio/blob/images/images/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
 
 <h3>:books: Getting started</h3>
 
@@ -31,8 +31,8 @@ Check live demonstration <a href="https://dorota1997.github.io/react-frontend-de
 ```
 // package.json
 {
-  "name": "react-frontend-dev-portfolio",
-  "homepage": "https://dorota1997.github.io/react-frontend-dev-portfolio/",   <-- remove/edit this
+  "name": "devops-portfolio",
+  "homepage": "https://touseef028.github.io/devops-portfolio/",   <-- remove/edit this
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -89,7 +89,7 @@ homepage property or json data won't load.
 </pre>
 </details>
 <details>
-<summary>[ 30.11.2020, contributor: <a href="https://github.com/dorota1997">@dorota1997</a> ]</summary>
+<summary>[ 30.11.2020, contributor: <a href="https://github.com/touseef028">@touseef028</a> ]</summary>
 <pre>
 - updated readme section
 - fixed problem of json files not being read
@@ -125,7 +125,7 @@ homepage property or json data won't load.
 
 <h3>:gear: Contribution</h3>
 
-If you have any suggestions on what to improve in <em>react-frontend-dev-portfolio</em> and would like to share them, feel free to leave an issue or fork project to implement your own ideas :slightly_smiling_face:
+If you have any suggestions on what to improve in <em>devops-portfolio</em> and would like to share them, feel free to leave an issue or fork project to implement your own ideas :slightly_smiling_face:
 
 <h3>:camera: Credits(images)</h3>
 

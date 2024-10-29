@@ -1,0 +1,94 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm M Tauseef. Cloud Engineer with full right to work in the UK, specializing in cloud architecture and DevOps practices. MSc graduate from Middlesex University London with extensive experience in Azure, AWS, and modern deployment technologies.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Cloud Infrastructure Optimization",
+        "startDate": "2023",
+        "description": "Designed and implemented infrastructure for React Next.js applications, achieving 20% improvement in deployment efficiency",
+        "images": [
+          "images/portfolio/project1/p1.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          "Azure",
+          "Terraform",
+          "Docker",
+          "Kubernetes"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Locumkit",
+        "title": "Cloud Engineer",
+        "years": "06.2023 - present",
+        "mainTech": [
+          "Azure",
+          "DevOps"
+        ],
+        "technologies": [
+          "Azure",
+          "Terraform",
+          "Docker",
+          "Shell Scripting",
+          "React",
+          "Next.js"
+        ]
+      },
+      {
+        "company": "WeRPlay",
+        "title": "DevOps Engineer",
+        "years": "08.2021 - 08.2022",
+        "mainTech": [
+          "Azure",
+          "Terraform"
+        ],
+        "technologies": [
+          "Azure",
+          "Terraform",
+          "Docker",
+          "CI/CD",
+          "Database Migration"
+        ]
+      },
+      {
+        "company": "CareCloud",
+        "title": "Configuration Engineer",
+        "years": "01.2021 - 07.2021",
+        "mainTech": [
+          "Azure DevOps"
+        ],
+        "technologies": [
+          "Azure DevOps",
+          "Docker",
+          "AKS",
+          "SonarQube",
+          "CI/CD"
+        ]
+      },
+      {
+        "company": "K&K IT Singapore",
+        "title": "DevOps Engineer",
+        "years": "03.2019 - 12.2020",
+        "mainTech": [
+          "Jenkins",
+          "Azure"
+        ],
+        "technologies": [
+          "Jenkins",
+          "Azure",
+          "Ansible",
+          "CI/CD"
+        ]
+      }
+    ]
+  }

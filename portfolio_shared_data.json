@@ -1,0 +1,83 @@
+{
+    "basic_info": {
+      "name": "M Tauseef Afzal",
+      "titles": [ "DevOps Engineer", "Senior Cloud Engineer", "Dev Team lead", "Platform Engineer", "Site Reliability Engineer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com",
+          "class": "fab fa-instagram"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "Azure",
+          "class": "devicon-azure-plain",
+          "level": "95"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain",
+          "level": "90"
+        },
+        {
+          "name": "GCP",
+          "class": "devicon-googlecloud-plain",
+          "level": "85"
+        },
+        {
+          "name": "Terraform",
+          "class": "devicon-terraform-plain",
+          "level": "90"
+        },
+        {
+          "name": "Jenkins",
+          "class": "devicon-jenkins-plain",
+          "level": "88"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "92"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "85"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "82"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "80"
+        },
+        {
+          "name": "Bash",
+          "class": "devicon-bash-plain",
+          "level": "88"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "90"
+        },
+        {
+          "name": "Linux",
+          "class": "devicon-linux-plain",
+          "level": "92"
+        }
+      ]
+    }
+  }

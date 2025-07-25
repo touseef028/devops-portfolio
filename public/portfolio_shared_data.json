@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "name": "M Tauseef Afzal",
-      "titles": [ "DevOps Engineer", "Senior Cloud Engineer", "Dev Team lead", "Platform Engineer", "Site Reliability Engineer" ],
+      "name": "Tauseef Afzal",
+      "titles": [ "DevOps Engineer", "Senior Cloud Engineer", "Dev Team lead", "Platform Engineer", "Site Reliability Engineer", "Data Analyst" ],
       "social": [
         {
           "name": "github",
@@ -77,6 +77,26 @@
           "name": "Linux",
           "class": "devicon-linux-plain",
           "level": "92"
+        },
+        {
+          "name": "Power BI",
+          "class": "devicon-microsoftsqlserver-plain",
+          "level": "88"
+        },
+        {
+          "name": "SQL",
+          "class": "devicon-mysql-plain",
+          "level": "85"
+        },
+        {
+          "name": "Excel",
+          "class": "devicon-microsoftsqlserver-plain",
+          "level": "90"
+        },
+        {
+          "name": "Data Visualization",
+          "class": "devicon-d3js-plain",
+          "level": "85"
         }
       ]
     }

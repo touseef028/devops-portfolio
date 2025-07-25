@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- KPI Cards -->
+  <g transform="translate(20, 20)">
+    <!-- Premiums Earned Card -->
+    <rect x="0" y="0" width="250" height="80" rx="5" fill="#b3d1ff" stroke="#0047b3" stroke-width="2"/>
+    <text x="10" y="25" font-family="Arial" font-size="16" fill="#333">Premiums Earned</text>
+    <text x="10" y="55" font-family="Arial" font-size="24" font-weight="bold" fill="#333">£111M</text>
+    <text x="10" y="75" font-family="Arial" font-size="12" fill="#555">Avg Premium Earned £15K</text>
+    
+    <!-- Claims Paid Card -->
+    <rect x="260" y="0" width="250" height="80" rx="5" fill="#b3d1ff" stroke="#0047b3" stroke-width="2"/>
+    <text x="270" y="25" font-family="Arial" font-size="16" fill="#333">Claims Paid</text>
+    <text x="270" y="55" font-family="Arial" font-size="24" font-weight="bold" fill="#333">£19M</text>
+    <text x="270" y="75" font-family="Arial" font-size="12" fill="#555">Avg Claim Amount £3K</text>
+    
+    <!-- Underwriting Profit Card -->
+    <rect x="520" y="0" width="250" height="80" rx="5" fill="#b3d1ff" stroke="#0047b3" stroke-width="2"/>
+    <text x="530" y="25" font-family="Arial" font-size="16" fill="#333">Underwriting profit</text>
+    <text x="530" y="55" font-family="Arial" font-size="24" font-weight="bold" fill="#333">£92M</text>
+    <text x="530" y="75" font-family="Arial" font-size="12" fill="#555">Avg Underwriting Amount Per Policy £12K</text>
+  </g>
+  
+  <!-- Claims by Gender and Marital Status -->
+  <g transform="translate(20, 120)">
+    <text x="0" y="20" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Claims by Gender and Marital Status</text>
+    
+    <!-- Chart Background -->
+    <rect x="0" y="30" width="370" height="150" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    
+    <!-- Male Bars -->
+    <rect x="50" y="50" width="50" height="20" fill="#333" />
+    <rect x="100" y="50" width="50" height="20" fill="#666" />
+    <rect x="150" y="50" width="50" height="20" fill="#999" />
+    <rect x="200" y="50" width="50" height="20" fill="#800080" />
+    <text x="20" y="65" font-family="Arial" font-size="12" fill="#333">Male</text>
+    
+    <!-- Female Bars -->
+    <rect x="50" y="80" width="50" height="20" fill="#333" />
+    <rect x="100" y="80" width="50" height="20" fill="#666" />
+    <rect x="150" y="80" width="50" height="20" fill="#999" />
+    <rect x="200" y="80" width="50" height="20" fill="#800080" />
+    <text x="10" y="95" font-family="Arial" font-size="12" fill="#333">Female</text>
+    
+    <!-- X-Axis -->
+    <line x1="50" y1="110" x2="250" y2="110" stroke="#333" stroke-width="1"/>
+    <text x="50" y="125" font-family="Arial" font-size="10" fill="#333">0%</text>
+    <text x="150" y="125" font-family="Arial" font-size="10" fill="#333">50%</text>
+    <text x="250" y="125" font-family="Arial" font-size="10" fill="#333">100%</text>
+    <text x="150" y="140" font-family="Arial" font-size="10" fill="#333">Number of Claims</text>
+    
+    <!-- Legend -->
+    <rect x="50" y="150" width="10" height="10" fill="#333" />
+    <text x="65" y="160" font-family="Arial" font-size="10" fill="#333">Divorced</text>
+    
+    <rect x="130" y="150" width="10" height="10" fill="#666" />
+    <text x="145" y="160" font-family="Arial" font-size="10" fill="#333">Married</text>
+    
+    <rect x="210" y="150" width="10" height="10" fill="#999" />
+    <text x="225" y="160" font-family="Arial" font-size="10" fill="#333">Single</text>
+    
+    <rect x="290" y="150" width="10" height="10" fill="#800080" />
+    <text x="305" y="160" font-family="Arial" font-size="10" fill="#333">Widowed</text>
+  </g>
+  
+  <!-- Claims by Age Group -->
+  <g transform="translate(20, 290)">
+    <text x="0" y="20" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Claims by Age group</text>
+    
+    <!-- Chart Background -->
+    <rect x="0" y="30" width="370" height="200" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    
+    <!-- Y-Axis Labels -->
+    <text x="30" y="50" font-family="Arial" font-size="12" text-anchor="end" fill="#333">65+</text>
+    <text x="30" y="80" font-family="Arial" font-size="12" text-anchor="end" fill="#333">55-64</text>
+    <text x="30" y="110" font-family="Arial" font-size="12" text-anchor="end" fill="#333">45-54</text>
+    <text x="30" y="140" font-family="Arial" font-size="12" text-anchor="end" fill="#333">35-44</text>
+    <text x="30" y="170" font-family="Arial" font-size="12" text-anchor="end" fill="#333">25-34</text>
+    <text x="30" y="200" font-family="Arial" font-size="12" text-anchor="end" fill="#333">18-24</text>
+    
+    <!-- Bars -->
+    <rect x="40" y="40" width="300" height="15" fill="#0099ff" />
+    <rect x="40" y="70" width="150" height="15" fill="#0099ff" />
+    <rect x="40" y="100" width="120" height="15" fill="#0099ff" />
+    <rect x="40" y="130" width="100" height="15" fill="#0099ff" />
+    <rect x="40" y="160" width="180" height="15" fill="#0099ff" />
+    <rect x="40" y="190" width="80" height="15" fill="#0099ff" />
+    
+    <!-- Bar Labels -->
+    <text x="345" y="52" font-family="Arial" font-size="10" fill="#333">890</text>
+    <text x="195" y="82" font-family="Arial" font-size="10" fill="#333">304</text>
+    <text x="165" y="112" font-family="Arial" font-size="10" fill="#333">297</text>
+    <text x="145" y="142" font-family="Arial" font-size="10" fill="#333">152</text>
+    <text x="225" y="172" font-family="Arial" font-size="10" fill="#333">349</text>
+    <text x="125" y="202" font-family="Arial" font-size="10" fill="#333">152</text>
+    
+    <!-- X-Axis -->
+    <line x1="40" y1="215" x2="340" y2="215" stroke="#333" stroke-width="1"/>
+    <text x="40" y="230" font-family="Arial" font-size="10" fill="#333">0</text>
+    <text x="140" y="230" font-family="Arial" font-size="10" fill="#333">200</text>
+    <text x="240" y="230" font-family="Arial" font-size="10" fill="#333">400</text>
+    <text x="340" y="230" font-family="Arial" font-size="10" fill="#333">600</text>
+    <text x="190" y="245" font-family="Arial" font-size="10" fill="#333">Number of Claims</text>
+  </g>
+  
+  <!-- Claims Paid and Claim Frequency by Make -->
+  <g transform="translate(400, 120)">
+    <text x="0" y="20" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Claims Paid and Claim Frequency by Make</text>
+    
+    <!-- Tab Buttons -->
+    <rect x="0" y="30" width="80" height="25" rx="5" fill="#ddd" stroke="#aaa" stroke-width="1"/>
+    <text x="40" y="47" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Make</text>
+    
+    <rect x="85" y="30" width="100" height="25" rx="5" fill="#eee" stroke="#aaa" stroke-width="1"/>
+    <text x="135" y="47" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Make & Model</text>
+    
+    <!-- Chart Background -->
+    <rect x="0" y="60" width="370" height="370" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    
+    <!-- Y-Axis Labels (Makes) -->
+    <text x="100" y="85" font-family="Arial" font-size="12" text-anchor="end" fill="#333">Nissan</text>
+    <text x="100" y="125" font-family="Arial" font-size="12" text-anchor="end" fill="#333">Kia</text>
+    <text x="100" y="165" font-family="Arial" font-size="12" text-anchor="end" fill="#333">Ford</text>
+    <text x="100" y="205" font-family="Arial" font-size="12" text-anchor="end" fill="#333">BMW</text>
+    <text x="100" y="245" font-family="Arial" font-size="12" text-anchor="end" fill="#333">Audi</text>
+    <text x="100" y="285" font-family="Arial" font-size="12" text-anchor="end" fill="#333">Toyota</text>
+    <text x="100" y="325" font-family="Arial" font-size="12" text-anchor="end" fill="#333">Chevrolet</text>
+    <text x="100" y="365" font-family="Arial" font-size="12" text-anchor="end" fill="#333">Mercedes-Benz</text>
+    
+    <!-- Bars -->
+    <rect x="110" y="75" width="250" height="10" fill="#0099ff" />
+    <rect x="110" y="115" width="200" height="10" fill="#0099ff" />
+    <rect x="110" y="155" width="180" height="10" fill="#0099ff" />
+    <rect x="110" y="195" width="160" height="10" fill="#0099ff" />
+    <rect x="110" y="235" width="140" height="10" fill="#0099ff" />
+    <rect x="110" y="275" width="120" height="10" fill="#0099ff" />
+    <rect x="110" y="315" width="100" height="10" fill="#0099ff" />
+    <rect x="110" y="355" width="80" height="10" fill="#0099ff" />
+    
+    <!-- Frequency Indicators -->
+    <circle cx="110" y="90" r="5" fill="#ff6600" />
+    <circle cx="110" y="130" r="5" fill="#ff6600" />
+    <circle cx="110" y="170" r="5" fill="#ff6600" />
+    <circle cx="110" y="210" r="5" fill="#ff6600" />
+    <circle cx="110" y="250" r="5" fill="#ff6600" />
+    <circle cx="110" y="290" r="5" fill="#ff6600" />
+    <circle cx="110" y="330" r="5" fill="#ff6600" />
+    <circle cx="110" y="370" r="5" fill="#ff6600" />
+    
+    <!-- Value Labels -->
+    <text x="365" y="85" font-family="Arial" font-size="10" fill="#333">£2,287,753</text>
+    <text x="315" y="125" font-family="Arial" font-size="10" fill="#333">£2,115,333</text>
+    <text x="295" y="165" font-family="Arial" font-size="10" fill="#333">£1,125,344</text>
+    <text x="275" y="205" font-family="Arial" font-size="10" fill="#333">£1,081,267</text>
+    <text x="255" y="245" font-family="Arial" font-size="10" fill="#333">£1,028,570</text>
+    <text x="235" y="285" font-family="Arial" font-size="10" fill="#333">£1,003,340</text>
+    <text x="215" y="325" font-family="Arial" font-size="10" fill="#333">£980,251</text>
+    <text x="195" y="365" font-family="Arial" font-size="10" fill="#333">£960,791</text>
+    
+    <!-- X-Axis -->
+    <line x1="110" y1="390" x2="360" y2="390" stroke="#333" stroke-width="1"/>
+    <text x="110" y="405" font-family="Arial" font-size="10" fill="#333">£0</text>
+    <text x="210" y="405" font-family="Arial" font-size="10" fill="#333">£1,000,000</text>
+    <text x="310" y="405" font-family="Arial" font-size="10" fill="#333">£2,000,000</text>
+    <text x="235" y="420" font-family="Arial" font-size="10" fill="#333">Claims Paid and Claim Frequency</text>
+    
+    <!-- Legend -->
+    <rect x="110" y="430" width="10" height="10" fill="#0099ff" />
+    <text x="125" y="440" font-family="Arial" font-size="10" fill="#333">Claims Paid</text>
+    
+    <circle cx="200" y="435" r="5" fill="#ff6600" />
+    <text x="210" y="440" font-family="Arial" font-size="10" fill="#333">Claim Frequency</text>
+  </g>
+  
+  <!-- Watermark -->
+  <text x="400" y="580" font-family="Arial" font-size="12" text-anchor="middle" fill="#999">Insurance Dashboard - Static Representation</text>
+</svg>

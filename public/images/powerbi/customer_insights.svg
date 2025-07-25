@@ -1,0 +1,81 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#f5f5f5"/>
+  
+  <!-- Dashboard Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Customer Insights Dashboard</text>
+  
+  <!-- KPI Cards -->
+  <rect x="50" y="70" width="160" height="100" rx="5" fill="#ffffff" stroke="#dddddd"/>
+  <text x="130" y="100" font-family="Arial" font-size="14" text-anchor="middle">Total Customers</text>
+  <text x="130" y="140" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">24,580</text>
+  
+  <rect x="230" y="70" width="160" height="100" rx="5" fill="#ffffff" stroke="#dddddd"/>
+  <text x="310" y="100" font-family="Arial" font-size="14" text-anchor="middle">Avg. Lifetime Value</text>
+  <text x="310" y="140" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">$840</text>
+  
+  <rect x="410" y="70" width="160" height="100" rx="5" fill="#ffffff" stroke="#dddddd"/>
+  <text x="490" y="100" font-family="Arial" font-size="14" text-anchor="middle">Retention Rate</text>
+  <text x="490" y="140" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">68%</text>
+  
+  <rect x="590" y="70" width="160" height="100" rx="5" fill="#ffffff" stroke="#dddddd"/>
+  <text x="670" y="100" font-family="Arial" font-size="14" text-anchor="middle">Churn Rate</text>
+  <text x="670" y="140" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">5.2%</text>
+  
+  <!-- Customer Segmentation -->
+  <rect x="50" y="190" width="340" height="240" rx="5" fill="#ffffff" stroke="#dddddd"/>
+  <text x="220" y="220" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Customer Segmentation</text>
+  
+  <!-- Donut Chart -->
+  <circle cx="220" cy="300" r="80" fill="#FFFFFF" stroke="#DDDDDD"/>
+  <circle cx="220" cy="300" r="40" fill="#F5F5F5" stroke="#DDDDDD"/>
+  
+  <!-- Donut Segments -->
+  <path d="M 220 300 L 220 220 A 80 80 0 0 1 291 345 Z" fill="#4285F4"/>
+  <path d="M 220 300 L 291 345 A 80 80 0 0 1 149 345 Z" fill="#EA4335"/>
+  <path d="M 220 300 L 149 345 A 80 80 0 0 1 149 255 Z" fill="#FBBC05"/>
+  <path d="M 220 300 L 149 255 A 80 80 0 0 1 220 220 Z" fill="#34A853"/>
+  
+  <!-- Legend -->
+  <rect x="100" y="390" width="10" height="10" fill="#4285F4"/>
+  <text x="115" y="400" font-family="Arial" font-size="12">Premium (30%)</text>
+  
+  <rect x="100" y="410" width="10" height="10" fill="#EA4335"/>
+  <text x="115" y="420" font-family="Arial" font-size="12">Standard (40%)</text>
+  
+  <rect x="220" y="390" width="10" height="10" fill="#FBBC05"/>
+  <text x="235" y="400" font-family="Arial" font-size="12">Basic (20%)</text>
+  
+  <rect x="220" y="410" width="10" height="10" fill="#34A853"/>
+  <text x="235" y="420" font-family="Arial" font-size="12">Trial (10%)</text>
+  
+  <!-- Customer Acquisition Channel -->
+  <rect x="410" y="190" width="340" height="240" rx="5" fill="#ffffff" stroke="#dddddd"/>
+  <text x="580" y="220" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Acquisition Channels</text>
+  
+  <!-- Horizontal Bar Chart -->
+  <line x1="440" y1="250" x2="440" y2="370" stroke="#333333" stroke-width="1"/>
+  <line x1="440" y1="370" x2="700" y2="370" stroke="#333333" stroke-width="1"/>
+  
+  <!-- Bars -->
+  <rect x="440" y="260" width="180" height="20" fill="#4285F4"/>
+  <rect x="440" y="290" width="140" height="20" fill="#4285F4"/>
+  <rect x="440" y="320" width="100" height="20" fill="#4285F4"/>
+  <rect x="440" y="350" width="60" height="20" fill="#4285F4"/>
+  
+  <!-- Bar Labels -->
+  <text x="435" y="275" font-family="Arial" font-size="12" text-anchor="end">Organic Search</text>
+  <text x="625" y="275" font-family="Arial" font-size="12" fill="white">45%</text>
+  
+  <text x="435" y="305" font-family="Arial" font-size="12" text-anchor="end">Social Media</text>
+  <text x="585" y="305" font-family="Arial" font-size="12" fill="white">35%</text>
+  
+  <text x="435" y="335" font-family="Arial" font-size="12" text-anchor="end">Referral</text>
+  <text x="545" y="335" font-family="Arial" font-size="12" fill="white">25%</text>
+  
+  <text x="435" y="365" font-family="Arial" font-size="12" text-anchor="end">Direct</text>
+  <text x="505" y="365" font-family="Arial" font-size="12" fill="white">15%</text>
+  
+  <!-- Power BI Logo Watermark -->
+  <text x="750" y="440" font-family="Arial" font-size="10" text-anchor="end" fill="#888888">Power BI Dashboard</text>
+</svg>

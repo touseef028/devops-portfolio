@@ -1,10 +1,7 @@
 import React, { Component } from "react";
-import Typical from "react-typical";
 import Switch from "react-switch";
 
 class Header extends Component {
-  titles = [];
-
   constructor() {
     super();
     this.state = { checked: false };
@@ -27,12 +24,7 @@ class Header extends Component {
   render() {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
-      this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
-
-    const HeaderTitleTypeAnimation = React.memo( () => {
-      return <Typical className="title-styles" steps={this.titles} loop={50} />
-    }, (props, prevProp) => true);
 
     return (
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
@@ -42,11 +34,8 @@ class Header extends Component {
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
               <br/>
               <h1 className="mb-0">
-                <Typical steps={[name]} wrapper="p" />
+                <p>{name}</p>
               </h1>
-              <div className="title-container">
-                <HeaderTitleTypeAnimation />
-              </div>
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
